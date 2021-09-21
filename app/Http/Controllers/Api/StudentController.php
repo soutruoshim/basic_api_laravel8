@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Student;
+use Carbon\Carbon;
+use Illuminate\Support\Facades\Hash;
 
 class StudentController extends Controller
 {
